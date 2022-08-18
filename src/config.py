@@ -9,4 +9,4 @@ find_x = ["a", "A", "s", "S", "o", "O", "1", "l"]
 replace_x = ["@", "@", "$", "$", "0", "0", "!", "1"]
 specialChars = "!@#$%^&*!@#$%^&*"
 from multiprocessing import cpu_count
-totalWorkers = cpu_count() - 3
+totalWorkers = cpu_count()
