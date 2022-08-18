@@ -9,5 +9,3 @@ RUN apt-get update && \
 RUN pip3 install \
     argparse \
     colorama
-RUN mkdir /app
-WORKDIR /app
