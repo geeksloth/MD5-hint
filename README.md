@@ -33,9 +33,14 @@ git clone https://github.com/geeksloth/md5hint.git && cd md5hint
 ```bash
 docker build -t md5hint .
 ```
+or just pull the image from Docker hub:
+```bash
+docker pull geeksloth/md5hint
+```
+**NOTE:** the image from geeksloth/md5hint is mainly built on M1 processor (linux/arm64/v8). Recommend to build from ```Dockerfile``` as previous command instead.
 3. Run a container:
 ```bash
-docker run -it --rm -v $PWD:/app md5hint bash
+docker run -it --rm -v $PWD:/app geeksloth/md5hint bash
 ```
 
 ## Run
