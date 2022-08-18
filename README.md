@@ -14,6 +14,9 @@ possible
 words
 etc...
 ```
+The output might be:
+![Alt text](static/screenshot.png?raw=true "example output")
+
 
 ## Prerequisite
 A. If you want to run this scrip in host system, these packages are required:
