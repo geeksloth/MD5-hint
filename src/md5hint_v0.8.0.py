@@ -237,7 +237,7 @@ else:
 			G.line_counter = 0
 			hint(lines)
 	if G.result is not None:
-		log.info("\match: {}".format(Fore.GREEN+G.result+Fore.RESET))
+		log.info("match: {}".format(Fore.GREEN+G.result+Fore.RESET))
 		if args.output is not None:
 			outpath = os.path.dirname(os.path.abspath(args.output))
 			if not os.path.exists(outpath):
