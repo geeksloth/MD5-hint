@@ -21,7 +21,7 @@ keywords
 ```
 The output might be:
 
-![Alt text](static/screenshot.png?raw=true "example output")
+![Alt text](static/ss.png?raw=true "example output")
 
 
 ## Prerequisite
