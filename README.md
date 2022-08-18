@@ -10,8 +10,8 @@ S0meworD
 s0mew0rd
 and
 other
-posible
-keywords
+possible
+words
 etc...
 ```
 
