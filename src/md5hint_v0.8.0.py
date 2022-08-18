@@ -237,7 +237,7 @@ else:
 			G.line_counter = 0
 			hint(lines)
 	if G.result is not None:
-		log.info("\npassword: {}".format(Fore.GREEN+G.result+Fore.RESET))
+		log.info("\match: {}".format(Fore.GREEN+G.result+Fore.RESET))
 		if args.output is not None:
 			outpath = os.path.dirname(os.path.abspath(args.output))
 			if not os.path.exists(outpath):
@@ -247,6 +247,6 @@ else:
 			print("output exported: {}".format(args.output))
 	else:
 		progress(G.line_total, G.line_total, prefix="corex", suffix=" "*16)
-		log.info("password: {}".format(Fore.RED+"not found"+Fore.RESET))
+		log.info("match: {}".format(Fore.RED+"not found"+Fore.RESET))
 	log.info("elapsed {} seconds".format(time()-tic))
 log.info("END")
