@@ -29,6 +29,7 @@ B. Run this script with ```Docker``` container is recommend way, please follow t
 ```bash
 git clone https://github.com/geeksloth/md5hint.git && cd md5hint
 ```
+
 2. Build a Docker image from the ```Dockerfile```:
 ```bash
 docker build -t md5hint .
@@ -37,7 +38,8 @@ or just pull the image from Docker hub:
 ```bash
 docker pull geeksloth/md5hint
 ```
-**NOTE:** the image from geeksloth/md5hint is mainly built on M1 processor (linux/arm64/v8). Recommend to build from ```Dockerfile``` as previous command instead.
+By the way, the image from ```geeksloth/md5hint```'s Docker Hub is mainly built on M1 processor (linux/arm64/v8). Recommend to build from ```Dockerfile``` as step 2. instead.
+
 3. Run a container:
 ```bash
 docker run -it --rm -v $PWD:/app geeksloth/md5hint bash
