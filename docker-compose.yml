@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  md5hint:
+    build:
+      context: .
+      dockerfile: "Dockerfile"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+    volumes: 
+      - .:/app
+    working_dir: /app
+    command: ["python3", "main.py"]
