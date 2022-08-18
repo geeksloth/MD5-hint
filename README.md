@@ -1,12 +1,27 @@
 # md5hint
-Hint md5 hash with provided dictionary
+Hint md5 hash with provided dictionary.
+
+If you have this MD5 hash ```60737510d1c08b29c264695b2c9e9c9e```, but **dont know the original data**. You just write down the guess words into ```.txt``` file line-by-line and save them with the name as same as that hash, ie. ```60737510d1c08b29c264695b2c9e9c9e.txt```. Which includings suggest words like:
+```
+someword
+$omeword
+$omew0rd
+S0meworD
+s0mew0rd
+and
+other
+posible
+keywords
+etc...
+```
 
 ## Prerequisite
 A. If you want to run this scrip in host system, these packages are required:
 ```bash
 hashlib glob logging pathlib time itertools colorama threading mutiprocessing math argparse os
 ```
-some of these packages are already installed by default, if not, install them via ```apt-get``` or ```pip``` as needed
+some of these packages are already installed by default, if not, install them via ```apt-get``` or ```pip``` as needed.
+
 B. Run this script with ```Docker``` container is recommend way, please follow the next step.
 
 ## Getting started
@@ -31,3 +46,4 @@ cd /app
 ```bash
 python3 main.py
 ```
+The output will be stored in the ```out``` folder if the result is found.
