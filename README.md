@@ -15,6 +15,7 @@ words
 etc...
 ```
 The output might be:
+
 ![Alt text](static/screenshot.png?raw=true "example output")
 
 
