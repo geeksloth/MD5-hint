@@ -8,7 +8,7 @@ example
 ofdictionary
 words
 Bytheway
-someword
+aword
 and
 other
 posible
