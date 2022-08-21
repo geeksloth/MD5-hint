@@ -25,13 +25,13 @@ keywords
 <br />
 
 ## Prerequisite
-A. If you want to run this scrip in host system, these packages are required:
+- If you want to run this scrip in host system, these packages are required:
 ```bash
 hashlib glob logging pathlib time itertools colorama threading mutiprocessing math argparse os
 ```
 some of these packages are already installed by default, if not, install them via ```apt-get``` or ```pip``` as needed.
 
-B. Run this script with ```Docker``` container is recommend way, please follow the next step.
+- Run this script with ```Docker``` container is recommend way, please follow the next step.
 <br />
 
 ## Getting started
