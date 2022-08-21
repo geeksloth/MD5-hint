@@ -2,7 +2,7 @@
 
 Hint md5 hash with guesses dictionary.
 
-![Alt text](static/screenshot3.png?raw=true "example output")
+![Alt text](static/screenshot.png?raw=true "example output")
 
 If you have this MD5 hash ```60737510d1c08b29c264695b2c9e9c9e```, but **dont know the original data**. You just write down the guess words into ```.txt``` file line-by-line and save them with the name as same as that hash, ie. ```60737510d1c08b29c264695b2c9e9c9e.txt```. Which includings suggest words like:
 ```
