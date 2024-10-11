@@ -1,4 +1,4 @@
-# md5hint
+# MD5-hint
 
 Hint md5 hash with guesses dictionary.
 
