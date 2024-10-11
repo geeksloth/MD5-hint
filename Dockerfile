@@ -6,6 +6,5 @@ RUN apt-get update && \
     python3-pip \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
-RUN pip3 install \
-    argparse \
-    colorama
+RUN pip3 install argparse --break-system-packages
+RUN pip3 install colorama --break-system-packages
